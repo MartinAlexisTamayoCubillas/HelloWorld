@@ -3,7 +3,7 @@ def calculate_discount(price, customer_type):
         discount = price * 0.05
     elif customer_type == 'premium':
         discount = price * 0.1
-    elif customer_type == 'vip':
+    elif customer_type == 'super premium':
         discount = price * 0.2
     else
         discount = 0
